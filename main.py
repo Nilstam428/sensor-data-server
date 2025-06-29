@@ -1,11 +1,12 @@
 from fastapi import FastAPI, Depends
-from fastapi_mqtt import FastMQTT, MQTTConfig
+# from fastapi_mqtt import FastMQTT, MQTTConfig
 from sqlalchemy.orm import Session
 from pydantic import BaseModel
 import models
 from database import SessionLocal, engine
 
 # Initialize FastAPI app
+
 app = FastAPI()
 
 

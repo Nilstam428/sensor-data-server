@@ -3,7 +3,6 @@
 ## Setup
 
 - Clone the repository
-- link: [Github Link](https://github.com/zipbolt/flask-server.git)
 - code uv add requirements.txt
 - Install the dependencies
 - Run the server
@@ -13,3 +12,8 @@
 - Flask
 - SQLAlchemy
 - Python 3.12/n
+
+## Run the server
+
+- python -m uvicorn main:app --reload
+- url: [http://localhost:8000](http://localhost:8000)
