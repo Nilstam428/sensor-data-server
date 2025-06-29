@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+pycopg2
+fastapi-mqtt
+sqlalchemy
+python-dotenv
